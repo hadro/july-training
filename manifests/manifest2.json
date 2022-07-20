@@ -1,0 +1,80 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://hadro.github.io/july-training/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "July 2022 Manifest training",
+  "viewingHint" : "individuals",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "We've created a basic manifest to use in the July training course.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Nasa and ESA, plus YCBA",
+  "sequences" : [ {
+    "@id" : "http://23db200d-bb31-429f-a090-bf18d30622d0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ecedaa81-9ed4-4f75-b206-77326f883f5d",
+      "@type" : "sc:Canvas",
+      "label" : "JWST first public image",
+      "height" : 4630,
+      "width" : 4537,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9d1ad6ec-98fe-4c0b-bac9-aa7e9b4242b9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/jwst_iiif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/jwst_iiif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4630,
+          "width" : 4537
+        },
+        "on" : "http://ecedaa81-9ed4-4f75-b206-77326f883f5d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0b03a4c5-523a-492f-9117-e2520367d294",
+      "@type" : "sc:Canvas",
+      "label" : "YCBA dog painting",
+      "height" : 4275,
+      "width" : 4941,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3d33d7bd-8eab-4555-b734-61ad2c6a3725",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4275,
+          "width" : 4941
+        },
+        "on" : "http://0b03a4c5-523a-492f-9117-e2520367d294"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
