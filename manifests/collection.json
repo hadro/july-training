@@ -1,0 +1,13 @@
+{
+  "id" : "https://hadro.github.io/july-training/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in hadro/july-training project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://hadro.github.io/july-training/manifests/manifest.json",
+    "label" : "July 2022 Manifest training"
+  } ]
+}
