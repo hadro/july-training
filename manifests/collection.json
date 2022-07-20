@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://hadro.github.io/july-training/manifests/manifest.json",
     "label" : "July 2022 Manifest training"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://hadro.github.io/july-training/manifests/manifest2.json",
+    "label" : "July 2022 Manifest training"
   } ]
 }
