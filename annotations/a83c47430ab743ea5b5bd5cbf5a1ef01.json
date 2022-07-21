@@ -1,0 +1,113 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "galaxy",
+      "@type" : "oa:Tag",
+      "chars" : "galaxy"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "jwst",
+      "@type" : "oa:Tag",
+      "chars" : "jwst"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Pac-Man galaxy that Glen found",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Pac-Man galaxy that Glen found</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/81478",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-07-21T14:54:13",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658415253848",
+    "dcterms:modified" : "2022-07-21T14:54:13",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://hadro.github.io/july-training/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2173,4027,234,212"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2173.20779,4027.09581h116.92246v0h116.92246v106.03994v106.03994h-116.92246h-116.92246v-106.03994z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2fc31906-a2c7-4bde-bcaf-0c1d4395f1b0\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ecedaa81-9ed4-4f75-b206-77326f883f5d"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Examples of gravitational lensing! So cool!",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Examples of gravitational lensing! So cool!</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/81478",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-21T14:56:19",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658415379697",
+    "dcterms:modified" : "2022-07-21T14:56:19",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://hadro.github.io/july-training/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2779,1739,594,887"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2779.04164,1738.79094h296.89344v0h296.89344v443.37535v443.37535h-296.89344h-296.89344v-443.37535z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_71cce7a0-c68c-402b-b49f-8f732f3f77ec\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ecedaa81-9ed4-4f75-b206-77326f883f5d"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "There's a great explanation of why there are 8 \"points\" of light for stars imaged by JWST: https://stsci-opo.org/STScI-01G6933BG2JKATWE1MGT1TCPJ9.png",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>There's a great explanation of why there are 8 \"points\" of light for stars imaged by JWST: https://stsci-opo.org/STScI-01G6933BG2JKATWE1MGT1TCPJ9.png</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/81478",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-21T14:55:05",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658415305050",
+    "dcterms:modified" : "2022-07-21T14:56:02",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://hadro.github.io/july-training/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1600,1411,724,717"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1600.45909,1410.61433h362.11858v0h362.11858v358.7278v358.7278h-362.11858h-362.11858v-358.7278z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_471cb0fc-f3cd-42dd-9406-6d8ac5e86b49\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"24.41365\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ecedaa81-9ed4-4f75-b206-77326f883f5d"
+    } ]
+  } ],
+  "@id" : "https://hadro.github.io/july-training/annotations/a83c47430ab743ea5b5bd5cbf5a1ef01.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
