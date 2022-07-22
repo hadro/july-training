@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Living Room",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Living Room</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/81478",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-22T18:47:46",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658515666900",
+    "dcterms:modified" : "2022-07-22T18:47:46",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://hadro.github.io/july-training/manifests/annotationsMani.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3824,820,1153,1961"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3823.76993,820.01177h576.61883v0h576.61883v980.25399v980.25399h-576.61883h-576.61883v-980.25399z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c9f65574-04c9-43ff-81f9-4b389a448e1e\" fill-opacity=\"0\" fill=\"#00bffe\" fill-rule=\"nonzero\" stroke=\"#00bffe\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f46fb0d0-9d50-4714-9871-99c02f5ca60a"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Bedroom",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Bedroom</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/81478",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-07-22T18:47:31",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1658515650849",
+    "dcterms:modified" : "2022-07-22T18:47:31",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://hadro.github.io/july-training/manifests/annotationsMani.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=4022,2705,1208,1363"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4021.85497,2705.18704h604.00517v0h604.00517v681.58478v681.58478h-604.00517h-604.00517v-681.58478z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c164afd3-f99d-4eec-93e1-3decbaa5f423\" fill-opacity=\"0\" fill=\"#00bffe\" fill-rule=\"nonzero\" stroke=\"#00bffe\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f46fb0d0-9d50-4714-9871-99c02f5ca60a"
+    } ]
+  } ],
+  "@id" : "https://hadro.github.io/july-training/annotations/anno.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
