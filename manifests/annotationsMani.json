@@ -3,6 +3,11 @@
   "@id" : "https://hadro.github.io/july-training/manifests/annotationsMani.json",
   "@type" : "sc:Manifest",
   "label" : "Breeden Bungalow Blueprints",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/81478/86aaf4281ac625d8657c340af060b1e8/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Creator",
     "value" : "Joseph Neel Reid"
