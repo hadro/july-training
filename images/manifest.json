@@ -1,0 +1,66 @@
+{
+  "id" : "https://hadro.github.io/july-training/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in hadro/july-training project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 5547,
+    "id" : "https://hadro.github.io/july-training/images/DV007_BreedenBungalow_N10_05_itemA/canvas/",
+    "label" : {
+      "none" : [ "DV007_BreedenBungalow_N10_05_itemA" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://hadro.github.io/july-training/images/DV007_BreedenBungalow_N10_05_itemA/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://hadro.github.io/july-training/images/DV007_BreedenBungalow_N10_05_itemA/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 174,
+              "height" : 222
+            }, {
+              "width" : 347,
+              "height" : 444
+            }, {
+              "width" : 694,
+              "height" : 888
+            }, {
+              "width" : 1387,
+              "height" : 1776
+            }, {
+              "width" : 2774,
+              "height" : 3552
+            }, {
+              "width" : 5547,
+              "height" : 7104
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 5547,
+            "@id" : "https://hadro.github.io/july-training/images/DV007_BreedenBungalow_N10_05_itemA",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 7104
+          } ],
+          "format" : "image/jpeg",
+          "width" : 5547,
+          "id" : "https://hadro.github.io/july-training/images/DV007_BreedenBungalow_N10_05_itemA/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 7104
+        },
+        "target" : "https://hadro.github.io/july-training/images/DV007_BreedenBungalow_N10_05_itemA/canvas/"
+      } ]
+    } ],
+    "height" : 7104
+  } ]
+}
