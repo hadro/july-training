@@ -59,7 +59,7 @@
         "on" : "http://df311fe7-7ee8-4bd0-98ac-e9c4810553ed"
       } ],
       "otherContent" : [ {
-        "@id" : "https://kgentilello.github.io/ReidArchitecturalDrawings/annotations/eec59ba390499a128fbfcfd8a2449ed3.json",
+        "@id" : "https://hadro.github.io/july-training/annotations/anno.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ]
