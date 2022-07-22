@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://hadro.github.io/july-training/annotations/a83c47430ab743ea5b5bd5cbf5a1ef01.json" ],
+  "otherContent" : [ "https://hadro.github.io/july-training/annotations/a83c47430ab743ea5b5bd5cbf5a1ef01.json", "https://hadro.github.io/july-training/annotations/eec59ba390499a128fbfcfd8a2449ed3.json" ],
   "@id" : "https://hadro.github.io/july-training/annotations/collection.json",
   "label" : "All annotations loaded in hadro/july-training project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
