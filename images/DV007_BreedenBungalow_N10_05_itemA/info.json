@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 174,
+    "height" : 222
+  }, {
+    "width" : 347,
+    "height" : 444
+  }, {
+    "width" : 694,
+    "height" : 888
+  }, {
+    "width" : 1387,
+    "height" : 1776
+  }, {
+    "width" : 2774,
+    "height" : 3552
+  }, {
+    "width" : 5547,
+    "height" : 7104
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 5547,
+  "@id" : "https://hadro.github.io/july-training/images/DV007_BreedenBungalow_N10_05_itemA",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 7104
+}
