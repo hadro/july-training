@@ -17,9 +17,5 @@
     "@type" : "sc:Manifest",
     "@id" : "https://hadro.github.io/july-training/manifests/manifest3.json",
     "label" : "July 2022 Manifest training"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://hadro.github.io/july-training/manifests/annotationsMani.json",
-    "label" : "Breeden Bungalow Blueprints"
   } ]
 }
